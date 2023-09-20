@@ -4,5 +4,5 @@
 
 <p>This platform serves as a starting point for a custom application using ArcGIS Experience Builder. It opens possibilities of collaborative development, building custom components, widgets and themes, as well as provides deployable exports for any web server. It takes care of a lot of an application's initial setup - including Jacobs branding - so developers can focus on innovation.</p>
 
-<div align="center>
+<div align="center">
 </div>
