@@ -1,1 +1,0 @@
-System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Grid",widgetProperties:"Araç özellikleri",widgetFunctions:"Araç işlevleri",widgetName:"araç adı:",widgetProps:"araç özellikleri:",tips:"Grid"})}}}));

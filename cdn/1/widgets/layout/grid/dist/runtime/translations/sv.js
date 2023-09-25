@@ -1,1 +1,0 @@
-System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Rutnät",widgetProperties:"Widgetegenskaper",widgetFunctions:"Widgetfunktioner",widgetName:"widgetnamn",widgetProps:"widgetegenskaper:",tips:"Rutnät"})}}}));

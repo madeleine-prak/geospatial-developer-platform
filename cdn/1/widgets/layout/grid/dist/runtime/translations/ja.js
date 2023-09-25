@@ -1,1 +1,0 @@
-System.register([],(function(e){return{execute:function(){e({_widgetLabel:"グリッド",widgetProperties:"ウィジェットのプロパティ",widgetFunctions:"ウィジェット関数",widgetName:"ウィジェット名:",widgetProps:"ウィジェットのプロパティ:",tips:"グリッド"})}}}));

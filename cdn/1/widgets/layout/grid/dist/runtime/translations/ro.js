@@ -1,1 +1,0 @@
-System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Grilă",widgetProperties:"Proprietăți widget",widgetFunctions:"Funcții widget",widgetName:"nume widget:",widgetProps:"proprietăți widget:",tips:"Grilă"})}}}));

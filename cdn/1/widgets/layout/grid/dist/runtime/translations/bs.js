@@ -1,1 +1,0 @@
-System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Mreža",widgetProperties:"Svojstva widgeta",widgetFunctions:"Funkcije widgeta",widgetName:"naziv widgeta:",widgetProps:"svojstva widgeta:",tips:"Mreža"})}}}));

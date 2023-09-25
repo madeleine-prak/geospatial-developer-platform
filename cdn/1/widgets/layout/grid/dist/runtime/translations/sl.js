@@ -1,1 +1,0 @@
-System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Mreža",widgetProperties:"Lastnosti pripomočka",widgetFunctions:"Funkcije pripomočka",widgetName:"ime pripomočka:",widgetProps:"lastnosti pripomočka:",tips:"Mreža"})}}}));

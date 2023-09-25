@@ -1,0 +1,23 @@
+{
+  "1695358875763.png": {
+    "svg": "${appResourceUrl}/images/icon_picker_in_setting/1695358875763.png",
+    "properties": {
+      "filename": "1695358875763.png",
+      "originalName": "png-transparent-github-social-media-computer-icons-logo-android-github-logo-computer-wallpaper-banner-thumbnail.png",
+      "path": "${appResourceUrl}/images/icon_picker_in_setting/1695358875763.png",
+      "color": "var(--dark-800)",
+      "size": 16,
+      "inlineSvg": false,
+      "isUploaded": true
+    }
+  },
+  "1695358911658.png": {
+    "svg": "${appResourceUrl}/images/icon_picker_in_setting/1695358911658.png",
+    "properties": {
+      "filename": "1695358911658.png",
+      "originalName": "github-logo-2E3852456C-seeklogo.com.png",
+      "path": "${appResourceUrl}/images/icon_picker_in_setting/1695358911658.png",
+      "inlineSvg": false
+    }
+  }
+}
