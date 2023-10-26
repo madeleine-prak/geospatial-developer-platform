@@ -118,14 +118,6 @@
       "linkUrl": "https://github.com/People-Places-Solutions/experience-builder-apps",
       "isVisible": true,
       "openTarget": "_blank"
-    },
-    "page_35": {
-      "id": "page_35",
-      "type": "LINK",
-      "label": "Host widgets",
-      "linkUrl": "https://github.com/People-Places-Solutions/geospatial-developer-platform",
-      "isVisible": true,
-      "openTarget": "_blank"
     }
   },
   "layouts": {
@@ -9092,20 +9084,6 @@
               "height": "AUTO"
             }
           }
-        },
-        "5": {
-          "type": "WIDGET",
-          "setting": {
-            "style": {},
-            "autoProps": {
-              "width": "CUSTOM"
-            }
-          },
-          "bbox": {
-            "width": "250.00px",
-            "height": "40.00px"
-          },
-          "widgetId": "widget_863"
         }
       },
       "order": [
@@ -9113,7 +9091,6 @@
         "1",
         "2",
         "3",
-        "5",
         "4"
       ],
       "setting": {
@@ -10581,14 +10558,14 @@
               "border": {
                 "type": "solid",
                 "color": "#f8f8f8",
-                "width": "2px"
+                "width": "3px"
               },
               "borderRadius": {
                 "number": [
-                  5,
-                  5,
-                  5,
-                  5
+                  0,
+                  0,
+                  0,
+                  0
                 ],
                 "unit": "px"
               }
@@ -10621,9 +10598,9 @@
       "useDataSourcesEnabled": true,
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-18abbc52d12-layer-4",
-          "mainDataSourceId": "dataSource_1-18abbc52d12-layer-4",
-          "rootDataSourceId": "dataSource_1",
+          "dataSourceId": "dataSource_2-0",
+          "mainDataSourceId": "dataSource_2-0",
+          "rootDataSourceId": "dataSource_2",
           "fields": []
         }
       ],
@@ -10634,7 +10611,7 @@
       "version": "1.12.0",
       "label": "Text 28",
       "config": {
-        "text": "<h5><span style=\"font-size: 15px; color: var(--dark-800);\">﻿</span><strong style=\"font-size: 20px;\"><exp data-uniqueid=\"d161adc0_85c9_c971_aa36_98cc664cbeab\" data-dsid=\"dataSource_1-18abbc52d12-layer-4\" data-expression=\"%7B%22name%22%3A%22%7BWidget%20Name%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BWidget%20Name%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18abbc52d12-layer-4%22%2C%22jimuFieldName%22%3A%22widget_name%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿{Widget Name}﻿﻿﻿</span>﻿</exp></strong> </h5>",
+        "text": "<h5><span style=\"color: var(--dark-800); font-size: 15px;\">﻿</span><strong style=\"font-size: 20px;\"><exp data-uniqueid=\"cf68930e_deaf_9f1f_01b7_87524af78ad2\" data-dsid=\"dataSource_2-0\" data-expression=\"%7B%22name%22%3A%22%7BWidget%20Name%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BWidget%20Name%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-0%22%2C%22jimuFieldName%22%3A%22widget_name%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Widget Name}</span>﻿</exp></strong>  </h5>",
         "placeholder": "<h5><span style=\"font-size: 15px;color: var(--dark-800);\">Double click to edit text</span></h5>",
         "style": {
           "verticalAlign": "start",
@@ -10646,9 +10623,9 @@
       "id": "widget_69",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-18abbc52d12-layer-4",
-          "mainDataSourceId": "dataSource_1-18abbc52d12-layer-4",
-          "rootDataSourceId": "dataSource_1",
+          "dataSourceId": "dataSource_2-0",
+          "mainDataSourceId": "dataSource_2-0",
+          "rootDataSourceId": "dataSource_2",
           "fields": [
             "widget_name"
           ]
@@ -10661,7 +10638,7 @@
       "version": "1.12.0",
       "label": "Text 29",
       "config": {
-        "text": "<p><span style=\"color: var(--dark-800); font-size: 14px;\">﻿by </span><span style=\"font-size: 14px;\"><exp data-uniqueid=\"7854231a_ed83_02b3_0dd2_d5999ad1ef91\" data-dsid=\"dataSource_1-18abbc52d12-layer-4\" data-expression=\"%7B%22name%22%3A%22Developer%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BFirst%20Name%20(Developer)%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18abbc52d12-layer-4%22%2C%22jimuFieldName%22%3A%22dev_firstname%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%C2%A0%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2B%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%C2%A0%22%7D%2C%7B%22type%22%3A%22STRING%22%2C%22exp%22%3A%22%5C%22%20%5C%22%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%C2%A0%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2B%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%C2%A0%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BLast%20Name%20(Developer)%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18abbc52d12-layer-4%22%2C%22jimuFieldName%22%3A%22dev_lastname%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿Developer﻿</span>﻿</exp>  </span></p><p><br></p><p><a href=\"\" target=\"_blank\" data-uniqueid=\"eacb159d_f7af_5e44_0526_ef26b92b0003\" data-dsid=\"dataSource_1-18abbc52d12-layer-4\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22%22%2C%22expression%22%3A%7B%22name%22%3A%22Email%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22STRING%22%2C%22exp%22%3A%22%5C%22mailto%3A%5C%22%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%C2%A0%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2B%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%C2%A0%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BEmail%20(Developer)%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18abbc52d12-layer-4%22%2C%22jimuFieldName%22%3A%22dev_email%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D%7D\" style=\"font-size: 14px;\"><exp data-uniqueid=\"0d82b1cd_c834_ff51_d577_7e21a04a7db2\" data-dsid=\"dataSource_1-18abbc52d12-layer-4\" data-expression=\"%7B%22name%22%3A%22%7BEmail%20(Developer)%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BEmail%20(Developer)%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18abbc52d12-layer-4%22%2C%22jimuFieldName%22%3A%22dev_email%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿{Email (Developer)}﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp></a><span style=\"font-size: 14px;\"> </span></p>",
+        "text": "<p><span style=\"font-size: 14px; color: var(--dark-800);\">﻿by </span><span style=\"font-size: 14px;\"><exp data-uniqueid=\"cd7fd398_7389_d151_1415_325b8ecfa2e8\" data-dsid=\"dataSource_2-0\" data-expression=\"%7B%22name%22%3A%22Developer%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BFirst%20Name%20(Developer)%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-0%22%2C%22jimuFieldName%22%3A%22dev_firstname%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%C2%A0%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2B%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%C2%A0%22%7D%2C%7B%22type%22%3A%22STRING%22%2C%22exp%22%3A%22%5C%22%20%5C%22%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%C2%A0%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2B%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%C2%A0%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BLast%20Name%20(Developer)%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-0%22%2C%22jimuFieldName%22%3A%22dev_lastname%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿Developer﻿﻿</span>﻿</exp></span></p><p><br></p><p><span style=\"font-size: 14px;\"><exp data-uniqueid=\"a859e782_6b6d_b4cc_0b8c_b983b9966541\" data-dsid=\"dataSource_2-0\" data-expression=\"%7B%22name%22%3A%22Email%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BEmail%20(Developer)%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-0%22%2C%22jimuFieldName%22%3A%22dev_email%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿Email﻿</span>﻿</exp></span></p>",
         "placeholder": "<p ><span style=\"font-size: 13px;color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod</span></p>",
         "style": {
           "verticalAlign": "start",
@@ -10673,9 +10650,9 @@
       "id": "widget_70",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-18abbc52d12-layer-4",
-          "mainDataSourceId": "dataSource_1-18abbc52d12-layer-4",
-          "rootDataSourceId": "dataSource_1",
+          "dataSourceId": "dataSource_2-0",
+          "mainDataSourceId": "dataSource_2-0",
+          "rootDataSourceId": "dataSource_2",
           "fields": [
             "dev_firstname",
             "dev_lastname",
@@ -10768,9 +10745,9 @@
       "id": "widget_71",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-18abbc52d12-layer-4",
-          "mainDataSourceId": "dataSource_1-18abbc52d12-layer-4",
-          "rootDataSourceId": "dataSource_1"
+          "dataSourceId": "dataSource_2-0",
+          "mainDataSourceId": "dataSource_2-0",
+          "rootDataSourceId": "dataSource_2"
         }
       ],
       "useDataSourcesEnabled": true
@@ -10793,9 +10770,9 @@
             "label": "Widget Log",
             "displayLabel": true,
             "useDataSource": {
-              "dataSourceId": "dataSource_1-18abbc52d12-layer-4",
-              "mainDataSourceId": "dataSource_1-18abbc52d12-layer-4",
-              "rootDataSourceId": "dataSource_1",
+              "dataSourceId": "dataSource_2-0",
+              "mainDataSourceId": "dataSource_2-0",
+              "rootDataSourceId": "dataSource_2",
               "fields": [
                 "widget_name"
               ]
@@ -10831,9 +10808,9 @@
       "useUtilities": [],
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-18abbc52d12-layer-4",
-          "mainDataSourceId": "dataSource_1-18abbc52d12-layer-4",
-          "rootDataSourceId": "dataSource_1",
+          "dataSourceId": "dataSource_2-0",
+          "mainDataSourceId": "dataSource_2-0",
+          "rootDataSourceId": "dataSource_2",
           "fields": [
             "widget_name"
           ]
@@ -10867,9 +10844,9 @@
             },
             "name": "Widget Log",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-18abbc52d12-layer-4",
-              "mainDataSourceId": "dataSource_1-18abbc52d12-layer-4",
-              "rootDataSourceId": "dataSource_1",
+              "dataSourceId": "dataSource_2-0",
+              "mainDataSourceId": "dataSource_2-0",
+              "rootDataSourceId": "dataSource_2",
               "fields": [
                 "widget_version"
               ]
@@ -10901,7 +10878,7 @@
               "sql": "",
               "displaySQL": "(Widget Version = ?)"
             },
-            "autoApplyWhenWidgetOpen": true,
+            "autoApplyWhenWidgetOpen": false,
             "collapseFilterExprs": false
           }
         ]
@@ -10909,9 +10886,9 @@
       "id": "widget_73",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-18abbc52d12-layer-4",
-          "mainDataSourceId": "dataSource_1-18abbc52d12-layer-4",
-          "rootDataSourceId": "dataSource_1",
+          "dataSourceId": "dataSource_2-0",
+          "mainDataSourceId": "dataSource_2-0",
+          "rootDataSourceId": "dataSource_2",
           "fields": [
             "widget_version"
           ]
@@ -13821,17 +13798,6 @@
             "featureSnapping": false,
             "showFields": [
               {
-                "jimuName": "OBJECTID",
-                "name": "OBJECTID",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeOID",
-                "alias": "OBJECTID",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                }
-              },
-              {
                 "jimuName": "widget_name",
                 "name": "widget_name",
                 "type": "STRING",
@@ -13873,20 +13839,6 @@
               }
             ],
             "groupedFields": [
-              {
-                "jimuName": "OBJECTID",
-                "name": "OBJECTID",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeOID",
-                "alias": "OBJECTID",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                },
-                "editAuthority": false,
-                "subDescription": "",
-                "editable": false
-              },
               {
                 "jimuName": "widget_name",
                 "name": "widget_name",
@@ -14534,7 +14486,7 @@
       "version": "1.12.0",
       "label": "Text 162",
       "config": {
-        "text": "<p>To use the <exp data-uniqueid=\"47400355_f6ca_4086_8f38_03b854e20c87\" data-dsid=\"dataSource_1-18abbc52d12-layer-4-selection\" data-expression=\"%7B%22name%22%3A%22%7BWidget%20Name%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BWidget%20Name%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18abbc52d12-layer-4-selection%22%2C%22jimuFieldName%22%3A%22widget_name%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿{Widget Name}﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp> widget in ArcGIS Enterprise, copy the following url and follow the steps <a href=\"page_30,view_10\" target=\"_self\" data-uniqueid=\"68d50449_3931_19d2_5c46_06174f4c3743\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22VIEW%22%2C%22value%22%3A%22page_30%2Cview_10%22%2C%22openType%22%3A%22_self%22%7D\">here</a>:</p><p><br></p><p><a href=\"https://jubilant-broccoli-r4oylj1.pages.github.io/exb_widgets/\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\" style=\"font-size: 15px;\">https://jubilant-broccoli-r4oylj1.pages.github.io/exb_widgets/</a><span style=\"font-size: 15px;\"><exp data-uniqueid=\"961d31aa_4e43_7aed_d5bc_29794e5975b1\" data-dsid=\"dataSource_1-18abbc52d12-layer-4-selection\" data-expression=\"%7B%22name%22%3A%22%7BWidget%20Version%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BWidget%20Version%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18abbc52d12-layer-4-selection%22%2C%22jimuFieldName%22%3A%22widget_version%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿{Widget Version}﻿﻿﻿﻿</span>﻿</exp>/<exp data-uniqueid=\"62ebb639_2ac1_41d8_64a8_0657b57d8270\" data-dsid=\"dataSource_1-18abbc52d12-layer-4-selection\" data-expression=\"%7B%22name%22%3A%22%7BWidget%20Name%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BWidget%20Name%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18abbc52d12-layer-4-selection%22%2C%22jimuFieldName%22%3A%22widget_name%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿{Widget Name}﻿﻿﻿﻿</span>﻿</exp>/manifest.json</span></p><p><br></p><p><em>* You must be an Enterprise admin to add custom widgets.</em></p>",
+        "text": "<p>To use the <strong><exp data-uniqueid=\"4073315e_df4b_2f98_5f42_aaca2bd35504\" data-dsid=\"dataSource_2-0-selection\" data-expression=\"%7B%22name%22%3A%22%7BWidget%20Name%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BWidget%20Name%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-0-selection%22%2C%22jimuFieldName%22%3A%22widget_name%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿{Widget Name}﻿﻿﻿</span>﻿</exp></strong> widget in ArcGIS Enterprise, copy the following url and follow the steps <a href=\"page_30,view_10\" target=\"_self\" data-uniqueid=\"68d50449_3931_19d2_5c46_06174f4c3743\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22VIEW%22%2C%22value%22%3A%22page_30%2Cview_10%22%2C%22openType%22%3A%22_self%22%7D\">here</a>:</p><p><br></p><p><a href=\"https://cuddly-funicular-ln32el7.pages.github.io/www-host/exb_widgets/\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\" style=\"font-size: 15px; color: var(--dark);\">https://cuddly-funicular-ln32el7.pages.github.io/www-host/exb_widgets/</a><span style=\"font-size: 15px;\"><exp data-uniqueid=\"be9d1fb3_488a_eeda_6b98_27b64c47e658\" data-dsid=\"dataSource_2-0-selection\" data-expression=\"%7B%22name%22%3A%22%7BWidget%20Version%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BWidget%20Version%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-0-selection%22%2C%22jimuFieldName%22%3A%22widget_version%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿{Widget Version}﻿﻿﻿</span>﻿</exp>/<exp data-uniqueid=\"f829a223_88c3_6f48_5fba_b8ce653eb287\" data-dsid=\"dataSource_2-0-selection\" data-expression=\"%7B%22name%22%3A%22%7BWidget%20Name%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BWidget%20Name%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-0-selection%22%2C%22jimuFieldName%22%3A%22widget_name%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿{Widget Name}﻿﻿﻿</span>﻿</exp>/manifest.json</span></p><p><br></p><p><em>* You must be an Enterprise admin to add custom widgets.</em></p>",
         "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
@@ -14545,9 +14497,9 @@
       "useDataSourcesEnabled": true,
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-18abbc52d12-layer-4-selection",
-          "mainDataSourceId": "dataSource_1-18abbc52d12-layer-4",
-          "rootDataSourceId": "dataSource_1",
+          "dataSourceId": "dataSource_2-0-selection",
+          "mainDataSourceId": "dataSource_2-0",
+          "rootDataSourceId": "dataSource_2",
           "dataViewId": "selection",
           "fields": [
             "widget_name",
@@ -18734,7 +18686,7 @@
       "version": "1.12.0",
       "label": "Text 248",
       "config": {
-        "text": "<p style=\"line-height: 1.75;\"><strong style=\"font-size: 24px;\">Contribute to the widgets and themes repository</strong></p><p style=\"line-height: 1.75;\"><span style=\"font-size: 18px;\">1. On GitHub.com, navigate to the </span><a href=\"https://github.com/People-Places-Solutions/experience-builder-widgets-themes\" target=\"_blank\" data-uniqueid=\"869338ff_4dbf_daf7_6b26_9ea73b28d084\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fgithub.com%2FPeople-Places-Solutions%2Fexperience-builder-widgets-themes%22%2C%22expression%22%3Anull%7D\" style=\"font-size: 18px;\">People-Places-Solutions/experience-builder-widget-themes</a><span style=\"font-size: 18px;\"> repository. </span></p><p style=\"line-height: 1.75;\"><span style=\"font-size: 18px;\">2. In the top-right corner of the page, click </span><strong style=\"font-size: 18px;\">Fork</strong><span style=\"font-size: 18px;\">. On the next page, keep the default settings and click </span><strong style=\"font-size: 18px;\">Create Fork</strong><span style=\"font-size: 18px;\">.</span></p><p style=\"line-height: 1.75;\"><span style=\"font-size: 18px;\">3. In the </span><strong style=\"font-size: 18px;\">./client</strong><span style=\"font-size: 18px;\"> directory of your local environment, use </span><strong style=\"font-size: 18px; background-color: rgb(248, 248, 248);\"> git clone </strong><a href=\"https://github.com/[your-username]/experience-builder-widget-theme\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\" style=\"font-size: 18px; background-color: rgb(248, 248, 248); color: var(--dark);\"><strong>https://github.com/[your-username]/experience-builder-widget-theme</strong></a><strong style=\"font-size: 18px; background-color: rgb(248, 248, 248);\"> custom-widgets-themes </strong><span style=\"font-size: 18px;\"> to clone the forked repo.</span></p><p style=\"line-height: 1.75;\"><span style=\"font-size: 18px;\">4. Within the repo, any custom widgets must live within a widgets child directory. Similarly, any custom themes must live within a themes child directory. Webpack will compile the widgets automatically when executing </span><span style=\"font-size: 18px; background-color: rgb(248, 248, 248);\"> </span><strong style=\"font-size: 18px; background-color: rgb(248, 248, 248);\">npm start</strong><span style=\"font-size: 18px; background-color: rgb(248, 248, 248);\"> .</span><span style=\"font-size: 18px;\"> Happy developing!</span></p><p style=\"line-height: 1.75;\"><span style=\"font-size: 18px;\">5. When ready to propose a new widget or theme, submit a pull request into the upstream GitHub repository from Step 1.</span></p>",
+        "text": "<p style=\"line-height: 1.75;\"><strong style=\"font-size: 24px;\">Contribute to the widgets and themes repository</strong></p><p style=\"line-height: 1.75;\"><span style=\"font-size: 18px;\">1. On GitHub.com, navigate to the </span><a href=\"https://github.com/People-Places-Solutions/experience-builder-widgets-themes\" target=\"_blank\" data-uniqueid=\"869338ff_4dbf_daf7_6b26_9ea73b28d084\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fgithub.com%2FPeople-Places-Solutions%2Fexperience-builder-widgets-themes%22%2C%22expression%22%3Anull%7D\" style=\"font-size: 18px;\">People-Places-Solutions/experience-builder-widgets-themes</a><span style=\"font-size: 18px;\"> repository. </span></p><p style=\"line-height: 1.75;\"><span style=\"font-size: 18px;\">2. In the top-right corner of the page, click </span><strong style=\"font-size: 18px;\">Fork</strong><span style=\"font-size: 18px;\">. On the next page, keep the default settings and click </span><strong style=\"font-size: 18px;\">Create Fork</strong><span style=\"font-size: 18px;\">.</span></p><p style=\"line-height: 1.75;\"><span style=\"font-size: 18px;\">3. In the </span><strong style=\"font-size: 18px;\">./client</strong><span style=\"font-size: 18px;\"> directory of your local environment, use </span><strong style=\"font-size: 18px; background-color: rgb(248, 248, 248);\"> git clone </strong><a href=\"https://github.com/[your-username]/experience-builder-widget-theme\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\" style=\"font-size: 18px; background-color: rgb(248, 248, 248); color: var(--dark);\"><strong>https://github.com/[your-username]/experience-builder-widgets-theme</strong></a><strong style=\"font-size: 18px; background-color: rgb(248, 248, 248);\"> custom-widgets-themes </strong><span style=\"font-size: 18px;\"> to clone the forked repo.</span></p><p style=\"line-height: 1.75;\"><span style=\"font-size: 18px;\">4. Within the repo, any custom widgets must live within a widgets child directory. Similarly, any custom themes must live within a themes child directory. Webpack will compile the widgets automatically when executing </span><span style=\"font-size: 18px; background-color: rgb(248, 248, 248);\"> </span><strong style=\"font-size: 18px; background-color: rgb(248, 248, 248);\">npm start</strong><span style=\"font-size: 18px; background-color: rgb(248, 248, 248);\"> .</span><span style=\"font-size: 18px;\"> Happy developing!</span></p><p style=\"line-height: 1.75;\"><span style=\"font-size: 18px;\">5. When ready to propose a new widget or theme, submit a pull request into the upstream GitHub repository from Step 1.</span></p>",
         "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
@@ -19564,7 +19516,7 @@
       "version": "1.12.0",
       "label": "Text 257",
       "config": {
-        "text": "<p style=\"line-height: 1.75;\"><strong style=\"font-size: 24px;\">Compile the widget</strong></p><p style=\"line-height: 1.75;\"><span style=\"font-size: 18px;\">1. First, you need to compile the widget. To do this run </span><strong style=\"font-size: 18px; background-color: rgb(248, 248, 248);\"> npm run build:prod </strong><span style=\"font-size: 18px;\"> in the /client directory.</span></p><p style=\"line-height: 1.75;\"><span style=\"font-size: 18px;\">2. The compiled widget shows up in the /client/dist-prod-widgets directory.</span></p>",
+        "text": "<p style=\"line-height: 1.75;\"><strong style=\"font-size: 24px;\">Compile the widget</strong></p><p style=\"line-height: 1.75;\"><span style=\"font-size: 18px;\">1. First, you need to compile the widget. To do this run </span><strong style=\"font-size: 18px; background-color: rgb(248, 248, 248);\"> npm run build:prod </strong><span style=\"font-size: 18px;\"> in the /client directory.</span></p><p style=\"line-height: 1.75;\"><span style=\"font-size: 18px;\">2. The compiled widget shows up in the /client/dist-prod/widgets directory.</span></p>",
         "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
@@ -19578,7 +19530,7 @@
       "version": "1.12.0",
       "label": "Text 258",
       "config": {
-        "text": "<p style=\"line-height: 1.75;\"><strong style=\"font-size: 24px;\">Deploy the widget in GitHub</strong></p><p style=\"line-height: 1.75;\"><span style=\"font-size: 18px;\">1. Go to the </span><a href=\"https://github.com/People-Places-Solutions/geospatial-developer-platform\" target=\"_blank\" data-uniqueid=\"491bd352_c999_5bf8_e291_0ae8807e7f69\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fgithub.com%2FPeople-Places-Solutions%2Fgeospatial-developer-platform%22%2C%22expression%22%3Anull%7D\" style=\"font-size: 18px;\">geospatial-developer-platform</a><span style=\"font-size: 18px;\"> GitHub repository.</span></p><p style=\"line-height: 1.75;\"><span style=\"font-size: 18px;\">2. In the Code tab, navigate to the appropriate version folder under </span><strong style=\"font-size: 18px;\">exb_widgets</strong><span style=\"font-size: 18px;\">. </span></p><p style=\"line-height: 1.75;\"><span style=\"font-size: 18px;\">3. You can find the widget version in the </span><strong style=\"font-size: 18px;\">manifest.json.</strong></p><p style=\"line-height: 1.75;\"><span style=\"font-size: 18px;\">4. Click Add file &gt; Upload files.</span></p><p style=\"line-height: 1.75;\"><span style=\"font-size: 18px;\">5. Add the entire widget folder from the client/dist-prod/widgets directory. Commit the changes.</span></p>",
+        "text": "<p style=\"line-height: 1.75;\"><strong style=\"font-size: 24px;\">Deploy the widget in GitHub</strong></p><p style=\"line-height: 1.75;\"><span style=\"font-size: 18px;\">1. On GitHub.com or in the IDE, go to the forked </span><span style=\"font-size: 18px; color: var(--dark);\">[your-username]</span><span style=\"font-size: 18px; color: var(--dark); background-color: rgb(255, 255, 255);\">/experience-builder-widgets-themes</span><span style=\"font-size: 18px; color: var(--dark);\"> </span><span style=\"font-size: 18px;\">repository.</span></p><p style=\"line-height: 1.75;\"><span style=\"font-size: 18px;\">2. Navigate to the appropriate widget version folder under </span><strong style=\"font-size: 18px;\">www-host/exb_widgets</strong><span style=\"font-size: 18px;\">. </span></p><p style=\"line-height: 1.75;\"><span style=\"font-size: 18px;\">3. You can find the widget version in the </span><strong style=\"font-size: 18px;\">manifest.json.</strong></p><p style=\"line-height: 1.75;\"><span style=\"font-size: 18px;\">4. Add the entire widget folder from the client/dist-prod/widgets directory. Add, commit and push the changes.</span></p><p style=\"line-height: 1.75;\"><span style=\"font-size: 18px;\">5. In GitHub.com, submit a pull request into the upstream </span><a href=\"https://github.com/People-Places-Solutions/experience-builder-widgets-themes\" target=\"_blank\" data-uniqueid=\"789876ab_748f_ac5f_2915_43f33d3a47b5\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fgithub.com%2FPeople-Places-Solutions%2Fexperience-builder-widgets-themes%22%2C%22expression%22%3Anull%7D\" style=\"font-size: 18px;\">People-Places-Solutions/experience-builder-widgets-themes</a><span style=\"font-size: 18px;\"> repository to host the widget.</span></p>",
         "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
@@ -19663,96 +19615,6 @@
           "LARGE": "layout_424"
         }
       }
-    },
-    "widget_863": {
-      "uri": "widgets/common/button/",
-      "version": "1.12.0",
-      "label": "Button 31",
-      "config": {
-        "functionConfig": {
-          "text": "geospatial-developer-platform",
-          "textExpression": null,
-          "linkParam": {
-            "linkType": "WEB_ADDRESS",
-            "openType": "_blank",
-            "value": "https://github.com/People-Places-Solutions/geospatial-developer-platform",
-            "expression": null
-          },
-          "icon": {
-            "data": {
-              "svg": "${appResourceUrl}/images/icon_picker_in_setting/1695358911658.png",
-              "properties": {
-                "filename": "1695358911658.png",
-                "originalName": "github-logo-2E3852456C-seeklogo.com.png",
-                "path": "${appResourceUrl}/images/icon_picker_in_setting/1695358911658.png",
-                "isUploaded": true,
-                "inlineSvg": false
-              }
-            },
-            "position": "LEFT"
-          }
-        },
-        "styleConfig": {
-          "customStyle": {
-            "regular": {
-              "background": {
-                "color": "var(--dark-700)",
-                "fillType": "fit"
-              },
-              "border": {
-                "type": "solid",
-                "color": "#c5c5c5",
-                "width": "0px"
-              },
-              "text": {
-                "color": "#ffffff",
-                "size": "14px"
-              },
-              "borderRadius": {
-                "number": [
-                  5,
-                  5,
-                  5,
-                  5
-                ],
-                "unit": "px"
-              },
-              "iconProps": {
-                "color": "#333333",
-                "size": 30
-              }
-            },
-            "hover": {
-              "background": {
-                "color": "var(--dark-600)",
-                "fillType": "fit"
-              },
-              "border": {
-                "type": "solid",
-                "width": "0px"
-              },
-              "text": {
-                "size": "14px"
-              },
-              "borderRadius": {
-                "number": [
-                  5,
-                  5,
-                  5,
-                  5
-                ],
-                "unit": "px"
-              },
-              "iconProps": {
-                "color": "var(--dark-100)",
-                "size": 30
-              }
-            }
-          },
-          "useCustom": true
-        }
-      },
-      "id": "widget_863"
     }
   },
   "widgetsManifest": {},
@@ -19907,6 +19769,26 @@
       "sourceLabel": "Developers Map",
       "itemId": "5fdb91af09a04a6fb2b3680f493b36a4",
       "portalUrl": "https://jacobs.maps.arcgis.com"
+    },
+    "dataSource_2": {
+      "id": "dataSource_2",
+      "type": "FEATURE_SERVICE",
+      "sourceLabel": "Widget Log",
+      "url": "https://services9.arcgis.com/eNX73FDxjlKFtCtH/arcgis/rest/services/Widget_Log/FeatureServer",
+      "itemId": "4d39fb1153e144d9a59405a67fb5b76f",
+      "portalUrl": "https://jacobs.maps.arcgis.com",
+      "label": "Widget Library",
+      "childDataSourceJsons": {
+        "0": {
+          "id": "dataSource_2-0",
+          "type": "FEATURE_LAYER",
+          "url": "https://services9.arcgis.com/eNX73FDxjlKFtCtH/arcgis/rest/services/Widget_Log/FeatureServer/0",
+          "layerId": "0",
+          "sourceLabel": "Widget Log",
+          "portalUrl": "https://jacobs.maps.arcgis.com",
+          "itemId": "4d39fb1153e144d9a59405a67fb5b76f"
+        }
+      }
     }
   },
   "messageConfigs": {},
@@ -19943,15 +19825,14 @@
     {
       "page_32": [
         "page_33",
-        "page_34",
-        "page_35"
+        "page_34"
       ]
     },
     {
       "page_31": []
     }
   ],
-  "timestamp": 1698278466938,
+  "timestamp": 1698285029083,
   "customTheme": {
     "colors": {
       "primary": "#9357fd"

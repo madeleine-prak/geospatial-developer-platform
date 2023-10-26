@@ -7444,6 +7444,43 @@
     "group": 9
   },
   {
+    "name": "demo-function",
+    "manifest": {
+      "name": "demo-function",
+      "label": "Demo (Function)",
+      "type": "widget",
+      "version": "1.12.0",
+      "exbVersion": "1.12.0",
+      "author": "Esri R&D Center Beijing",
+      "description": "This is the widget used in developer documentation",
+      "copyright": "",
+      "license": "http://www.apache.org/licenses/LICENSE-2.0",
+      "properties": {
+        "hasSettingPage": false
+      },
+      "translatedLocales": [
+        "en",
+        "zh-cn"
+      ],
+      "defaultSize": {
+        "width": 800,
+        "height": 500
+      }
+    },
+    "i18nLabel": {
+      "en": "Demo (Function)",
+      "zh-cn": "演示 函数式"
+    },
+    "i18nDescription": {
+      "en": null,
+      "zh-cn": null
+    },
+    "uri": "widgets/demo-function/",
+    "icon": "widgets/demo-function/icon.svg",
+    "order": 700,
+    "group": 7
+  },
+  {
     "name": "starter-widget",
     "manifest": {
       "name": "starter-widget",
